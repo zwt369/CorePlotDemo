@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EF0D54DFFD9D72E86B110B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 979605ECE77E75496391EA0C /* libPods.a */; };
+		EA3B57CD1C8D76B200D8F297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B57CC1C8D76B200D8F297 /* main.m */; };
+		EA3B57D01C8D76B200D8F297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B57CF1C8D76B200D8F297 /* AppDelegate.m */; };
+		EA3B57D81C8D76B200D8F297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B57D71C8D76B200D8F297 /* Assets.xcassets */; };
+		EA3B57DB1C8D76B200D8F297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B57D91C8D76B200D8F297 /* LaunchScreen.storyboard */; };
+		EA3B57E61C8D76B200D8F297 /* CorePlotDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B57E51C8D76B200D8F297 /* CorePlotDemoTests.m */; };
+		EA3B57F11C8D76B200D8F297 /* CorePlotDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B57F01C8D76B200D8F297 /* CorePlotDemoUITests.m */; };
+		EA3B58421C8E5A9B00D8F297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B58411C8E5A9B00D8F297 /* ViewController.m */; };
+		EA3B58451C8E5FAC00D8F297 /* CorePlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B58441C8E5FAC00D8F297 /* CorePlotView.m */; };
+		EA3B588A1C8E71ED00D8F297 /* CorePlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3B58891C8E71ED00D8F297 /* CorePlotViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA3B57E21C8D76B200D8F297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3B57C01C8D76B200D8F297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3B57C71C8D76B200D8F297;
+			remoteInfo = CorePlotDemo;
+		};
+		EA3B57ED1C8D76B200D8F297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3B57C01C8D76B200D8F297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3B57C71C8D76B200D8F297;
+			remoteInfo = CorePlotDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DE8A9474BFFA8ACD2BDD444 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8C73BD01A86A20FB3778DD0C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		979605ECE77E75496391EA0C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3B57C81C8D76B200D8F297 /* CorePlotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorePlotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3B57CC1C8D76B200D8F297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA3B57CE1C8D76B200D8F297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA3B57CF1C8D76B200D8F297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA3B57D71C8D76B200D8F297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3B57DA1C8D76B200D8F297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA3B57DC1C8D76B200D8F297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B57E11C8D76B200D8F297 /* CorePlotDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorePlotDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3B57E51C8D76B200D8F297 /* CorePlotDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorePlotDemoTests.m; sourceTree = "<group>"; };
+		EA3B57E71C8D76B200D8F297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B57EC1C8D76B200D8F297 /* CorePlotDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorePlotDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3B57F01C8D76B200D8F297 /* CorePlotDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorePlotDemoUITests.m; sourceTree = "<group>"; };
+		EA3B57F21C8D76B200D8F297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B58401C8E5A9B00D8F297 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA3B58411C8E5A9B00D8F297 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA3B58431C8E5FAC00D8F297 /* CorePlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePlotView.h; sourceTree = "<group>"; };
+		EA3B58441C8E5FAC00D8F297 /* CorePlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePlotView.m; sourceTree = "<group>"; };
+		EA3B58881C8E71ED00D8F297 /* CorePlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePlotViewController.h; sourceTree = "<group>"; };
+		EA3B58891C8E71ED00D8F297 /* CorePlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePlotViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3B57C51C8D76B200D8F297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EF0D54DFFD9D72E86B110B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B57DE1C8D76B200D8F297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B57E91C8D76B200D8F297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95582B6C869181D8D1DCFBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C73BD01A86A20FB3778DD0C /* Pods.debug.xcconfig */,
+				3DE8A9474BFFA8ACD2BDD444 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3C5A765597F03F5D2D39C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				979605ECE77E75496391EA0C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3B57BF1C8D76B200D8F297 = {
+			isa = PBXGroup;
+			children = (
+				EA3B57CA1C8D76B200D8F297 /* CorePlotDemo */,
+				EA3B57E41C8D76B200D8F297 /* CorePlotDemoTests */,
+				EA3B57EF1C8D76B200D8F297 /* CorePlotDemoUITests */,
+				EA3B57C91C8D76B200D8F297 /* Products */,
+				A95582B6C869181D8D1DCFBC /* Pods */,
+				B3C5A765597F03F5D2D39C82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3B57C91C8D76B200D8F297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B57C81C8D76B200D8F297 /* CorePlotDemo.app */,
+				EA3B57E11C8D76B200D8F297 /* CorePlotDemoTests.xctest */,
+				EA3B57EC1C8D76B200D8F297 /* CorePlotDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3B57CA1C8D76B200D8F297 /* CorePlotDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B57CE1C8D76B200D8F297 /* AppDelegate.h */,
+				EA3B57CF1C8D76B200D8F297 /* AppDelegate.m */,
+				EA3B58881C8E71ED00D8F297 /* CorePlotViewController.h */,
+				EA3B58891C8E71ED00D8F297 /* CorePlotViewController.m */,
+				EA3B58401C8E5A9B00D8F297 /* ViewController.h */,
+				EA3B58411C8E5A9B00D8F297 /* ViewController.m */,
+				EA3B58431C8E5FAC00D8F297 /* CorePlotView.h */,
+				EA3B58441C8E5FAC00D8F297 /* CorePlotView.m */,
+				EA3B57D71C8D76B200D8F297 /* Assets.xcassets */,
+				EA3B57D91C8D76B200D8F297 /* LaunchScreen.storyboard */,
+				EA3B57DC1C8D76B200D8F297 /* Info.plist */,
+				EA3B57CB1C8D76B200D8F297 /* Supporting Files */,
+			);
+			path = CorePlotDemo;
+			sourceTree = "<group>";
+		};
+		EA3B57CB1C8D76B200D8F297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B57CC1C8D76B200D8F297 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA3B57E41C8D76B200D8F297 /* CorePlotDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B57E51C8D76B200D8F297 /* CorePlotDemoTests.m */,
+				EA3B57E71C8D76B200D8F297 /* Info.plist */,
+			);
+			path = CorePlotDemoTests;
+			sourceTree = "<group>";
+		};
+		EA3B57EF1C8D76B200D8F297 /* CorePlotDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B57F01C8D76B200D8F297 /* CorePlotDemoUITests.m */,
+				EA3B57F21C8D76B200D8F297 /* Info.plist */,
+			);
+			path = CorePlotDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3B57C71C8D76B200D8F297 /* CorePlotDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3B57F51C8D76B200D8F297 /* Build configuration list for PBXNativeTarget "CorePlotDemo" */;
+			buildPhases = (
+				D6F8AF180C16AEB6E41840A1 /* Check Pods Manifest.lock */,
+				EA3B57C41C8D76B200D8F297 /* Sources */,
+				EA3B57C51C8D76B200D8F297 /* Frameworks */,
+				EA3B57C61C8D76B200D8F297 /* Resources */,
+				7FDB262CE9547AE75F2468BB /* Embed Pods Frameworks */,
+				0386F4132748CD44109FCCCD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CorePlotDemo;
+			productName = CorePlotDemo;
+			productReference = EA3B57C81C8D76B200D8F297 /* CorePlotDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA3B57E01C8D76B200D8F297 /* CorePlotDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3B57F81C8D76B200D8F297 /* Build configuration list for PBXNativeTarget "CorePlotDemoTests" */;
+			buildPhases = (
+				EA3B57DD1C8D76B200D8F297 /* Sources */,
+				EA3B57DE1C8D76B200D8F297 /* Frameworks */,
+				EA3B57DF1C8D76B200D8F297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3B57E31C8D76B200D8F297 /* PBXTargetDependency */,
+			);
+			name = CorePlotDemoTests;
+			productName = CorePlotDemoTests;
+			productReference = EA3B57E11C8D76B200D8F297 /* CorePlotDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA3B57EB1C8D76B200D8F297 /* CorePlotDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3B57FB1C8D76B200D8F297 /* Build configuration list for PBXNativeTarget "CorePlotDemoUITests" */;
+			buildPhases = (
+				EA3B57E81C8D76B200D8F297 /* Sources */,
+				EA3B57E91C8D76B200D8F297 /* Frameworks */,
+				EA3B57EA1C8D76B200D8F297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3B57EE1C8D76B200D8F297 /* PBXTargetDependency */,
+			);
+			name = CorePlotDemoUITests;
+			productName = CorePlotDemoUITests;
+			productReference = EA3B57EC1C8D76B200D8F297 /* CorePlotDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3B57C01C8D76B200D8F297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YanFa26No2;
+				TargetAttributes = {
+					EA3B57C71C8D76B200D8F297 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EA3B57E01C8D76B200D8F297 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EA3B57C71C8D76B200D8F297;
+					};
+					EA3B57EB1C8D76B200D8F297 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EA3B57C71C8D76B200D8F297;
+					};
+				};
+			};
+			buildConfigurationList = EA3B57C31C8D76B200D8F297 /* Build configuration list for PBXProject "CorePlotDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3B57BF1C8D76B200D8F297;
+			productRefGroup = EA3B57C91C8D76B200D8F297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3B57C71C8D76B200D8F297 /* CorePlotDemo */,
+				EA3B57E01C8D76B200D8F297 /* CorePlotDemoTests */,
+				EA3B57EB1C8D76B200D8F297 /* CorePlotDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3B57C61C8D76B200D8F297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B57DB1C8D76B200D8F297 /* LaunchScreen.storyboard in Resources */,
+				EA3B57D81C8D76B200D8F297 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B57DF1C8D76B200D8F297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B57EA1C8D76B200D8F297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0386F4132748CD44109FCCCD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FDB262CE9547AE75F2468BB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F8AF180C16AEB6E41840A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3B57C41C8D76B200D8F297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B57D01C8D76B200D8F297 /* AppDelegate.m in Sources */,
+				EA3B588A1C8E71ED00D8F297 /* CorePlotViewController.m in Sources */,
+				EA3B57CD1C8D76B200D8F297 /* main.m in Sources */,
+				EA3B58421C8E5A9B00D8F297 /* ViewController.m in Sources */,
+				EA3B58451C8E5FAC00D8F297 /* CorePlotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B57DD1C8D76B200D8F297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B57E61C8D76B200D8F297 /* CorePlotDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B57E81C8D76B200D8F297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B57F11C8D76B200D8F297 /* CorePlotDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3B57E31C8D76B200D8F297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3B57C71C8D76B200D8F297 /* CorePlotDemo */;
+			targetProxy = EA3B57E21C8D76B200D8F297 /* PBXContainerItemProxy */;
+		};
+		EA3B57EE1C8D76B200D8F297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3B57C71C8D76B200D8F297 /* CorePlotDemo */;
+			targetProxy = EA3B57ED1C8D76B200D8F297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3B57D91C8D76B200D8F297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3B57DA1C8D76B200D8F297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3B57F31C8D76B200D8F297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA3B57F41C8D76B200D8F297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3B57F61C8D76B200D8F297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C73BD01A86A20FB3778DD0C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CorePlotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.tony.CorePlotDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		EA3B57F71C8D76B200D8F297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE8A9474BFFA8ACD2BDD444 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CorePlotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.tony.CorePlotDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		EA3B57F91C8D76B200D8F297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CorePlotDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.tony.CorePlotDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorePlotDemo.app/CorePlotDemo";
+			};
+			name = Debug;
+		};
+		EA3B57FA1C8D76B200D8F297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CorePlotDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.tony.CorePlotDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorePlotDemo.app/CorePlotDemo";
+			};
+			name = Release;
+		};
+		EA3B57FC1C8D76B200D8F297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CorePlotDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.tony.CorePlotDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CorePlotDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA3B57FD1C8D76B200D8F297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CorePlotDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.tony.CorePlotDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CorePlotDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3B57C31C8D76B200D8F297 /* Build configuration list for PBXProject "CorePlotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B57F31C8D76B200D8F297 /* Debug */,
+				EA3B57F41C8D76B200D8F297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3B57F51C8D76B200D8F297 /* Build configuration list for PBXNativeTarget "CorePlotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B57F61C8D76B200D8F297 /* Debug */,
+				EA3B57F71C8D76B200D8F297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3B57F81C8D76B200D8F297 /* Build configuration list for PBXNativeTarget "CorePlotDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B57F91C8D76B200D8F297 /* Debug */,
+				EA3B57FA1C8D76B200D8F297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3B57FB1C8D76B200D8F297 /* Build configuration list for PBXNativeTarget "CorePlotDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B57FC1C8D76B200D8F297 /* Debug */,
+				EA3B57FD1C8D76B200D8F297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3B57C01C8D76B200D8F297 /* Project object */;
+}
